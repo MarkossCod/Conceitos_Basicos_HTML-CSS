@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="index.css">
+<title>Conceitos_Basicos</title>
+</head>
+<body>
+
+<!-- =============== SEÇÃO 1 =============== -->
+<section class="secao1">
+    <h2 class="section-title">Seção 1: Box</h2>
+
+    <div class="box-demo">
+        <h3>Seja bem vindo ao "Moment Darth Vader</h3>
+                <p>Descubra a jornada do Jedi que se tornou Sith, 
+                suas batalhas lendárias e os segredos por trás do capacete que virou símbolo de poder, 
+                mistério e redenção.</p>
+    </div>
+</section>
+
+<!-- =============== SEÇÃO 2 =============== -->
+<section class="secao2">
+    <h2 class="section-title">Seção 2: Tipografia</h2>
+
+    <h3 class="subtitle">Entre a luz e a escuridão</h3>
+    <p>
+        Anakin Skywalker, um poderoso Jedi, é manipulado por Palpatine e cai no lado sombrio 
+        por medo de perder Padmé Amidala. Tornando-se Darth Vader, ele massacra Jedi, 
+        incluindo crianças, mas é derrotado por Obi-Wan. Anos depois, seu 
+        filho Luke o leva ao arrependimento, e ele destrói o Imperador antes de morrer, retornando à luz.
+    </p>
+</section>
+
+<!-- =============== SEÇÃO 3 =============== -->
+<section class="secao3">
+    <h2 class="section-title">Seção 3: Box Model</h2>
+
+    <p>Esta seção demonstra o funcionamento do Box Model em CSS: content, padding, border e margin.</p>
+
+    <div class="box-model-demo">
+        <div class="box margin">Margin</div>
+        <div class="box border">Border</div>
+        <div class="box padding">Padding</div>
+        <div class="box content">Content</div>
+    </div>
+</section>
+
+<!-- =============== SEÇÃO 4 =============== -->
+<section class="secao4">
+  <h2 class="section-title">Seção 4: Imagem com Legenda</h2>
+  
+  <div class="image-container">
+    <figure> <img src="img/darth-vader.jpg" alt="Darth Vader">
+      <figcaption>Darth Vader</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- =============== SEÇÃO 5 =============== -->
+<section class="secao5">
+    <h2 class="section-title">Seção 5: Layout Flex(Cards)</h2>
+
+    <p>Exemplo de layout usando Flexbox com cards responsivos:</p>
+
+    <div class="flex-container">
+        <div class="card">
+            <h3>Card 1 – O Início de Anakin</h3>
+            <p>Anakin Skywalker era um garoto escravo em Tatooine, extremamente talentoso na Força. Ele foi 
+                descoberto por Qui-Gon Jinn e levado para treinar como Jedi, 
+                com a esperança de trazer equilíbrio à galáxia.</p>
+        </div>
+        <div class="card">
+            <h3>Card 2 – A Ascensão do Jedi</h3>
+            <p>Anakin tornou-se um Jedi poderoso, mas impulsivo e emocional. Ele se apaixonou por 
+                Padmé Amidala e lutou contra o medo de perdê-la, 
+                o que começou a corroer sua lealdade à Ordem Jedi.</p>
+        </div>
+        <div class="card">
+            <h3>Card 3 – A Queda para o Lado Sombrio</h3>
+            <p>Manipulado pelo Imperador Palpatine, Anakin cedeu ao lado negro da Força e se tornou Darth Vader. 
+                Ele ajudou a exterminar os Jedi e se tornou o braço direito do Imperador, aterrorizando a galáxia.</p>
+        </div>
+        <div class="card">
+            <h3>Card 4 – Redenção e Legado</h3>
+            <p>Após anos de tirania, Vader é confrontado pelo seu filho, Luke Skywalker, que acredita na bondade dentro dele. 
+                No fim,Anakin se sacrifica para salvar Luke e destruir o Imperador, 
+                cumprindo a profecia de trazer equilíbrio à Força.</p>
+        </div>
+    </div>
+</section>
+
+<!-- =============== SEÇÃO 6 =============== -->
+<section class="secao6">
+    <h2 class="section-title">Seção 6: Layout Grid (Galeria)</h2>
+
+    <p>Exemplo de galeria usando CSS Grid(Imagens referente ao assunto das ultimas seções):</p>
+
+    <div class="grid-container">
+        <div class="grid-item"><img src="img/quadrinho01.jpg" alt="Imagem 1"></div>
+        <div class="grid-item"><img src="img/quadrinho02.jpg" alt="Imagem 2"></div>
+        <div class="grid-item"><img src="img/quadrinho03.jpg" alt="Imagem 3"></div>
+        <div class="grid-item"><img src="img/quadrinho04.jpg" alt="Imagem 4"></div>
+        <div class="grid-item"><img src="img/quadrinho05.jpg" alt="Imagem 5"></div>
+        <div class="grid-item"><img src="img/quadrinho06.jpg" alt="Imagem 6"></div>
+    </div>
+</section>
+
+<!-- =============== SEÇÃO 7 =============== -->
+<section class="secao7">
+    <h2 class="section-title">Seção 7: UI States (Estados de UI)</h2>
+
+    <p>Exemplo de diferentes estados de UI em botões e campos de formulário:</p>
+
+    <div class="ui-states-container">
+
+        <!-- Botões -->
+        <div class="ui-group">
+            <h3>Botões</h3>
+            <button class="btn">Normal</button>
+            <button class="btn" disabled>Disabled</button>
+        </div>
+
+        <!-- Inputs -->
+        <div class="ui-group">
+            <h3>Campos de Input</h3>
+            <input type="text" placeholder="Normal">
+            <input type="text" placeholder="Focus" class="focus">
+            <input type="text" placeholder="Disabled" disabled>
+        </div>
+
+        <!-- Links -->
+        <div class="ui-group">
+            <h3>Links</h3>
+            <a href="#" class="link">Normal</a>
+            <a href="#" class="link hover">Hover (Simulado)</a>
+            <a href="#" class="link disabled">Disabled</a>
+        </div>
+
+    </div>
+</section>
+<!-- =============== SEÇÃO 8 =============== -->
+<section class="secao8">
+  <h2 class="section-title">Seção 8: Footer e Acessibilidade (A11y)</h2>
+
+  <p>Exemplo de footer com boas práticas de acessibilidade:</p>
+
+  <footer class="footer">
+    <div class="footer-container">
+
+      <!-- Informações da empresa -->
+      <div class="footer-section">
+        <h3>Sobre Nós</h3>
+        <p>Site voltado a mostrar alguns conceitos Basicos de html e css atraves de alguns conhecimentos de Star wars</p>
+      </div>
+
+      <!-- Contato -->
+      <div class="footer-section">
+        <h3>Contato</h3>
+        <p>Email: <a href="mailto:contato@exemplo.com">contato@exemplo.com</a></p>
+        <p>Telefone: <a href="tel:+5511999999999">+55 11 99999-9999</a></p>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 Exemplo de Empresa. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+</section>
+
+
+</body>
+</html>
